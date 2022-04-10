@@ -11,6 +11,7 @@
   "scripts": {
     "commit": "cz",
     "build": "vite build",
+    "format": "rome format .",
     "build:watch": "vite build --watch"
   },
   "repository": "https://github.com/luistak/vite-libby.git",
@@ -19,6 +20,7 @@
   "devDependencies": {
     "@types/node": "^17.0.23",
     "cz-conventional-changelog": "^3.3.0",
+    "rome": "^0.4.2-next",
     "vite": "^2.9.1",
     "vite-dts": "^1.0.4"
   }

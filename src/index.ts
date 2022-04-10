@@ -1,1 +1,1 @@
-export const bla = () => console.log('bla func test');
+export const bla = () => console.log("bla func test");

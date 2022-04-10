@@ -84,6 +84,36 @@
   dependencies:
     "@cspotcode/source-map-consumer" "0.8.0"
 
+"@rometools/cli-darwin-arm64@0.4.2-next":
+  version "0.4.2-next"
+  resolved "https://registry.yarnpkg.com/@rometools/cli-darwin-arm64/-/cli-darwin-arm64-0.4.2-next.tgz#5505347c4204cecbcfe6c08c20ebb18442cf03a1"
+  integrity sha512-wLtyen1nOlkggQdzkTbAaPX9yGeY3rq2tTV9ClKJo7V77RmHZ4bj4OKGOPckO3/Bz+R0Va06pi8f5szifG/UtQ==
+
+"@rometools/cli-darwin-x64@0.4.2-next":
+  version "0.4.2-next"
+  resolved "https://registry.yarnpkg.com/@rometools/cli-darwin-x64/-/cli-darwin-x64-0.4.2-next.tgz#c71270ba6db59180f5329144f21cd9aa6784953c"
+  integrity sha512-KsYQPdWeu2+4O1Jy0schlGUep10G/DyAj1jv7a87wM0XKixBdCxAjVIsknNdsPUfMbrWgB7xvwimxcWYEKx7/A==
+
+"@rometools/cli-linux-arm64@0.4.2-next":
+  version "0.4.2-next"
+  resolved "https://registry.yarnpkg.com/@rometools/cli-linux-arm64/-/cli-linux-arm64-0.4.2-next.tgz#62fc80769b66853e8bcf03f03464f7ccbf248251"
+  integrity sha512-UNXlDg09wFZoB2+/7EueqQ8H1gxSen4qDh2ObkmNQFKNNWcnUMNk0THFoa5yZCMNwTeJDL16bfeQcNrHvXscvg==
+
+"@rometools/cli-linux-x64@0.4.2-next":
+  version "0.4.2-next"
+  resolved "https://registry.yarnpkg.com/@rometools/cli-linux-x64/-/cli-linux-x64-0.4.2-next.tgz#f55f71510c9087c7ef34467bd09af552d7b7f60b"
+  integrity sha512-NVeOLQGLR+O5UquBWvHBJejmukiIBvHVJbJSuCMWON1xIY0ZbQQVpDCDtVSVtLY4gGFdgogUZM6AJbcAjW66sA==
+
+"@rometools/cli-win32-arm64@0.4.2-next":
+  version "0.4.2-next"
+  resolved "https://registry.yarnpkg.com/@rometools/cli-win32-arm64/-/cli-win32-arm64-0.4.2-next.tgz#105877aed721e9401eb3636b8733cc695b80d36c"
+  integrity sha512-zkoVGV3NEmWaDaGBmOe+w5WhrM0HLd8of1smw7Dz0XknSa6mK3jR/S/vdS3ZreKcXWEya8FIeCvZ1tXCFQr+Pg==
+
+"@rometools/cli-win32-x64@0.4.2-next":
+  version "0.4.2-next"
+  resolved "https://registry.yarnpkg.com/@rometools/cli-win32-x64/-/cli-win32-x64-0.4.2-next.tgz#cb6b5deed279bdb4bbbcf00e276a99670773ee3c"
+  integrity sha512-+3apd6W5tuLfbwZE5lzgv77obmUYA2tjCuQcZ4pwer1BoDHKx3vxwzxRjO9XH8CWXDvLyQN3dJGMGEWZBBaUJQ==
+
 "@tsconfig/node10@^1.0.7":
   version "1.0.8"
   resolved "https://registry.yarnpkg.com/@tsconfig/node10/-/node10-1.0.8.tgz#c1e4e80d6f964fbecb3359c43bd48b40f7cadad9"
@@ -977,6 +1007,18 @@ rollup@^2.59.0:
   integrity sha512-CRYsI5EuzLbXdxC6RnYhOuRdtz4bhejPMSWjsFLfVM/7w/85n2szZv6yExqUXsBdz5KT8eoubeyDUDjhLHEslA==
   optionalDependencies:
     fsevents "~2.3.2"
+
+rome@^0.4.2-next:
+  version "0.4.2-next"
+  resolved "https://registry.yarnpkg.com/rome/-/rome-0.4.2-next.tgz#6f5ff48c5bbd3118dc3db50554317fda7981db75"
+  integrity sha512-Fr6TdmIKNfIPr7/a/QJR1ZXLz6G6ammn7j9ButylpZgt9NnT7XlQ5i0FjZOIy/lKOzOJe4cjhiltSSL5DMb5+w==
+  optionalDependencies:
+    "@rometools/cli-darwin-arm64" "0.4.2-next"
+    "@rometools/cli-darwin-x64" "0.4.2-next"
+    "@rometools/cli-linux-arm64" "0.4.2-next"
+    "@rometools/cli-linux-x64" "0.4.2-next"
+    "@rometools/cli-win32-arm64" "0.4.2-next"
+    "@rometools/cli-win32-x64" "0.4.2-next"
 
 run-async@^2.2.0:
   version "2.4.1"
