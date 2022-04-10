@@ -1,0 +1,25 @@
+{
+  "name": "vite-libby",
+  "version": "0.0.0-alpha",
+  "description": "TypeScript Library with Vite",
+  "main": "dist/vite-libby.cjs.js",
+  "module": "dist/vite-libby.es.js",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "commit": "cz",
+    "build": "vite build",
+    "build:watch": "vite build --watch"
+  },
+  "repository": "https://github.com/luistak/vite-libby.git",
+  "author": "Luis Takahashi <takahashihideki408@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "cz-conventional-changelog": "^3.3.0",
+    "vite": "^2.9.1",
+    "vite-dts": "^1.0.4"
+  }
+}
